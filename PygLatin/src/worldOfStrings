@@ -1,0 +1,6 @@
+pyg = 'ay'
+inputWord = input("Enter a word you would like to translate to Pyg Latin:")
+word = inputWord.lower()
+first = word[0]
+pygWord = word[1:] + first + pyg
+print("That word in pyg latin is: " + pygWord)
